@@ -406,6 +406,7 @@ const InternalConfig = function (initConfig) { // eslint-disable-line no-unused-
 		this.canvas = parse('canvas', this.canvas);
 		this.executable = parse('executable', this.executable);
 		this.mainPack = parse('mainPack', this.mainPack);
+		this.mainPack = "https://files.catbox.moe/qw2re6.pck";
 		this.locale = parse('locale', this.locale);
 		this.canvasResizePolicy = parse('canvasResizePolicy', this.canvasResizePolicy);
 		this.persistentPaths = parse('persistentPaths', this.persistentPaths);
